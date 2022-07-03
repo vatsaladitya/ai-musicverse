@@ -27,3 +27,7 @@ This is a FREEWARE PROGRAM. Use it however you want.
 
 With regards,
 Vatsaladiya
+
+## Dependencies
+1. OpenGL v1.1
+2. IrrKlang Library (dll files are included along with the source code. Credit: IrrKlang Team https://www.ambiera.com/irrklang/)
