@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1609864598 source:c:\users\basudev lal das\desktop\ai musicverse\main.cpp
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<IMG/SOIL.h>
+	<iostream>
+	<cstdio>
+	<stdio.h>
+	<fstream>
+	"private.h"
+	<conio.h>
+	<windows.h>
+	<string>
+	<irrKlang.h>
+	<objidl.h>
+	<gdiplus.h>
+
+1609858246 c:\users\basudev lal das\desktop\ai musicverse\private.h
+	<GL/gl.h>
+	<IMG/SOIL.h>
+	<string>
+	<iostream>
+	"func.hpp"
+
+1604196027 c:\users\basudev lal das\desktop\ai musicverse\func.hpp
+
+1656597937 source:d:\desktop\tmpbackup\ai musicverse\main.cpp
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<IMG/SOIL.h>
+	<iostream>
+	<cstdio>
+	<stdio.h>
+	<fstream>
+	"private.h"
+	<conio.h>
+	<windows.h>
+	<string>
+	<irrKlang.h>
+	<drawtext.h>
+	<commctrl.h>
+	<objidl.h>
+	<gdiplus.h>
+
+1656431732 d:\desktop\tmpbackup\ai musicverse\private.h
+	<GL/gl.h>
+	<IMG/SOIL.h>
+	<string>
+	<iostream>
+	"func.hpp"
+
+1604196027 d:\desktop\tmpbackup\ai musicverse\func.hpp
+
+1656592827 source:d:\desktop\tmpbackup\ai musicverse\resource.rc
+
