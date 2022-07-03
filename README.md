@@ -28,6 +28,12 @@ This is a FREEWARE PROGRAM. Use it however you want.
 With regards,
 Vatsaladiya
 
-## Dependencies
+## For developers
+### Dependencies
 1. OpenGL v1.1
+2. Glu
+3. Freeglut (http://freeglut.sourceforge.net/)
 2. IrrKlang Library (dll files are included along with the source code. Credit: IrrKlang Team https://www.ambiera.com/irrklang/)
+3. libdrawtext (https://github.com/jtsiomb/libdrawtext)
+
+This project was built in Code::Blocks IDE with MinGW compilers and it's project settings may need to be tinkered if you are building it on your machine with different specs. Moreover, this project is focused on Windows only. Paths and some libraries are Windows specific. So, you can't directly build it on Linux without tweaking it a bit.
