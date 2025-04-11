@@ -2,7 +2,7 @@
 **DISCLAIMER:** The abbreviation *AI* in the name of this project **DOES NOT MEAN ARTIFICIAL INTELLIGENCE!**. So, do not expect any AI stuff in this project.<br/>
 
 This is a simple music player written in C++ and SDL2. This is the 2nd update to the original AI MUSICVERSE written in C++ with a bunch of other libraries. This project has completely migrated to SDL2 in this version. Previous libraries have been replaced with SDL2 libraries. For a complete list of changes, refer to [CHANGELOG](CHANGELOG.md).<br/>
-Currently, it only supports Windows builds due to Win32 dependency. The lastest release can be found [here]().<br/>
+Currently, it only supports Windows builds due to Win32 dependency. The lastest release can be found [here](https://github.com/vatsaladitya/ai-musicverse/releases/tag/v2.0.0).<br/>
 
 # Controls
 - <kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd> or Mouse Scroll Wheel -> Volume up/down
