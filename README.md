@@ -28,6 +28,7 @@ This project uses CMake. A `CMakeLists.txt` file is provided in the root directo
 - SDL2_image v2.8.8
 - SDL2_mixer v2.8.1
 - SDL2_ttf v2.24.0
+
 The .dll and .lib files are in **bin** and **lib** directories respectively. To build this project open command line interface at the project root directory and run the following commands:
 ```
 mkdir build
