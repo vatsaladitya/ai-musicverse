@@ -1,39 +1,37 @@
-# AI Musicverse
-A simple music player written in C++ and OpenGL.
-This is a FREEWARE PROGRAM. Use it however you want.
+# AI MUSICVERSE
+**DISCLAIMER:** The abbreviation *AI* in the name of this project **DOES NOT MEAN ARTIFICIAL INTELLIGENCE!**. So, do not expect any AI stuff in this project.<br/>
 
-## Keyboard and mouse controls:
+This is a simple music player written in C++ and SDL2. This is the 2nd update to the original AI MUSICVERSE written in C++ with a bunch of other libraries. This project has completely migrated to SDL2 in this version. Previous libraries have been replaced with SDL2 libraries. For a complete list of changes, refer to [CHANGELOG](CHANGELOG.md).<br/>
+Currently, it only supports Windows builds due to Win32 dependency. The lastest release can be found [here]().<br/>
 
-### General controls
-1. Skip forward by 5 seconds: Right arrow key
-2. Skip backward by 5 seconds: Left arrow key
-3. Volume up: Up arrow key
-4. Volume down: Down arrow key
-5. Play/Pause : Space key
+# Controls
+- <kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd> or Mouse Scroll Wheel -> Volume up/down
+- <kbd>Arrow Right</kbd>/<kbd>Arrow Left</kbd> -> Music forward/back
+- <kbd>Space</kbd> -> Music pause/play
+- <kbd>D</kbd> -> Toggle light/dark mode
+- <kbd>F</kbd> -> Toggle fullscreen
 
-### Special controls
-1. To change Volume using mouse whell, first move the mouse over the volume button
-2. To switch between light and dark modes: press 'D' key
+# Binaries
+You can find all Windows binaries in the release section [here](https://github.com/vatsaladitya/ai-musicverse/releases).
 
-** The Playlist button doesn't work **
+# Build yourself
+Dependencies:
+1. [CMake](https://cmake.org/download)
+2. [Visual Studio 2022](https://visualstudio.microsoft.com/vs) or [MinGW-w64](https://www.mingw-w64.org/downloads)
+3. [SDL2](https://github.com/libsdl-org/SDL)
+4. [SDL2_image](https://github.com/libsdl-org/SDL_image)
+5. [SDL2_mixer](https://github.com/libsdl-org/SDL_mixer)
+6. [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf)
 
-## Bugs and drawbacks
-1. You cannot drag and drop file in the player
-2. The player doesn't have menu bar
-3. You cannot skip the music using mouse
-4. The interface is primitive
-5. It uses OpenGL for drawing and may be memory intensive
-6. USE IT AT YOUR OWN RISK
-
-With regards,
-Vatsaladiya
-
-## For developers
-### Dependencies
-1. OpenGL v1.1
-2. Glu
-3. Freeglut (http://freeglut.sourceforge.net/)
-2. IrrKlang Library (dll files are included along with the source code. Credit: IrrKlang Team https://www.ambiera.com/irrklang/)
-3. libdrawtext (https://github.com/jtsiomb/libdrawtext)
-
-This project was built in Code::Blocks IDE with MinGW compilers and it's project settings may need to be tweaked if you are building it on your machine with different specs. Moreover, this project is focused on Windows only. Paths and some libraries are Windows specific. So, you can't directly build it on Linux without tweaking it a bit.
+This project uses CMake. A `CMakeLists.txt` file is provided in the root directory. The SDL2 libraries for Visual Studio 2022 x64 used to build this version and include files are provided along with the project for convenience. The following libraries are included:
+- SDL2 v2.32.4
+- SDL2_image v2.8.8
+- SDL2_mixer v2.8.1
+- SDL2_ttf v2.24.0
+The .dll and .lib files are in **bin** and **lib** directories respectively. To build this project open command line interface at the project root directory and run the following commands:
+```
+mkdir build
+cmake -S . -B build
+cd build
+cmake --build .
+```
