@@ -1,0 +1,34 @@
+#include <windows.h>
+#include "version.h"
+
+0 ICON DISCARDABLE "logo.ico"
+
+1 VERSIONINFO
+FILEVERSION     AMV_VER_RSC
+PRODUCTVERSION  AMV_VER_RSC
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName","AI Corporation\0"
+            VALUE "FileDescription","AI MUSICVERSE\0"
+            VALUE "FileVersion",AMV_VER_STR
+            VALUE "InternalName","AI-MUSICVERSE.bas\0"
+            VALUE "LegalCopyright","(C) Public. FREEWARE SOFTWARE\0"
+            VALUE "LegalTrademarks","NO TRADEMARKS\0"
+            VALUE "OriginalFilename","AI MUSICVERSE.exe\0"
+            VALUE "ProductName","AI MUSICVERSE\0"
+            VALUE "ProductVersion",AMV_VER_STR
+            VALUE "Comments",".\0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+2 PNG DISCARDABLE "resourcel.png"
+3 PNG DISCARDABLE "resourced.png"
